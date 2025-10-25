@@ -59,7 +59,7 @@ export default function Projects() {
               key={project.id}
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow p-6"
             >
-              <div className="h-40 bg-gradient-to-br flex items-center justify-center">
+              <div className="h-40 flex items-center justify-center">
                 <img
                   src={project.image}
                   alt={project.title}

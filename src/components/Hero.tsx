@@ -2,7 +2,10 @@ import profileImg from "../assets/images/profile.jpg";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen  pt-20 px-4 sm:px-6 lg:px-8 ">
+    <section
+      id="home"
+      className="min-h-screen px-4 pt-10 sm:px-6 lg:px-8 flex items-center"
+    >
       <div className="max-w-6xl mx-auto py-12 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center justify-between">
           <div className="order-2 lg:order-1">
@@ -10,7 +13,7 @@ export default function Hero() {
               Hello, I'm Sourav
             </h2>
             <p className="text-xl sm:text-2xl text-gray-700 mb-8">
-              Software Developer
+              Mobile App Developer
             </p>
 
             <div className="mb-10">
@@ -18,10 +21,10 @@ export default function Hero() {
                 About Me
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                I’m Sourav Ramesh, a software developer with experience in React
-                Native. Over the past 1.5 years, I’ve developed and deployed
-                mobile and web apps, focusing on performance, clean code, and
-                great user experience.
+                I’m Sourav Ramesh, a mobile app developer with experience in
+                React Native. Over the past 1.5 years, I’ve developed and
+                deployed mobile and web apps, focusing on performance, clean
+                code, and great user experience.
               </p>
             </div>
 
